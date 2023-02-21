@@ -34,7 +34,9 @@ const Project = ({ title }) => {
           <div>
             <p className="mt-7">
               {projectDescription1}<br/>
-              <a className="text-cyan-500 underline" target="_blank"
+              <a className="text-cyan-500 underline" 
+              rel="noreferrer noopener"
+              target="_blank"
               href="https://fellerrr.github.io/grillBestDesign/">Посмотреть</a>
             </p>
           </div>}
@@ -42,7 +44,9 @@ const Project = ({ title }) => {
           <div>
             <p className="mt-7">
               {projectDescription2}<br/>
-              <a className="text-cyan-500 underline" target="_blank"
+              <a className="text-cyan-500 underline" 
+              rel="noreferrer noopener"
+              target="_blank"
               href="https://pizza-level-up-git-mybranch-fellerrr.vercel.app/">Посмотреть</a>
             </p>
           </div>}
@@ -50,7 +54,9 @@ const Project = ({ title }) => {
           <div>
             <p className="mt-7">
               {projectDescription3}<br/>
-              <a className="text-cyan-500 underline" target="_blank"
+              <a className="text-cyan-500 underline"
+              rel="noreferrer noopener"
+              target="_blank"
               href="https://simple-todo-27d6te81o-fellerrr.vercel.app/">Посмотреть</a>
             </p>
           </div>}

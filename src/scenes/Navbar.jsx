@@ -84,26 +84,31 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             <div className="flex flex-col gap-10 ml-[33%] text-2xl text-deep-blue">
               <Link
                 page="Home"
+                visual="Главная"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
               <Link
                 page="Skills"
+                visual="Навыки"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
               <Link
                 page="Projects"
+                visual="Проекты"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
               <Link
                 page="Testimonials"
+                visual="Отзывы"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
               <Link
                 page="Contact"
+                visual="Контакты"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />

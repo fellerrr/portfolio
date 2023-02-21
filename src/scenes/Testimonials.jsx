@@ -39,9 +39,9 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-playfair text-6xl">“</p>
-          <p className="text-center text-xl">
-          "Отличная работа! Дмитрий быстро и профессионально справился с задачей. Спасибо!"
+          <p className="font-playfair text-5xl sm:text-6xl">“</p>
+          <p className="text-center text-base sm:text-xl">
+          Отличная работа! Дмитрий быстро и профессионально справился с задачей. Спасибо!"
           </p>
         </motion.div>
 
@@ -57,9 +57,9 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-playfair text-6xl">“</p>
-          <p className="text-center text-xl">
-          "Профессионализм и внимание к деталям - это то, что отличает Дмитрия от других разработчиков.
+          <p className="font-playfair text-5xl sm:text-6xl">“</p>
+          <p className="text-center text-base sm:text-xl">
+          Профессионализм и внимание к деталям - это то, что отличает Дмитрия от других разработчиков.
 
           </p>
         </motion.div>
@@ -76,9 +76,9 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-playfair text-6xl">“</p>
-          <p className="text-center text-xl">
-          "Результаты работы были превосходными. Удобное веб-приложение, которое работает отлично. Очень доволен!"
+          <p className="font-playfair text-5xl sm:text-6xl">“</p>
+          <p className="text-center text-base sm:text-xl">
+          Удобное веб-приложение, которое работает отлично. Очень доволен!"
 
           </p>
         </motion.div>
