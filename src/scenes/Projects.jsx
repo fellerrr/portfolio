@@ -2,10 +2,13 @@ import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 
 const projectDescription1 = "\"Grille\" - это проект веб-сайта ресторана , который предоставляет клиентам возможность ознакомиться с меню и забронировать столик онлайн."
-const projectDescription2 = "Это проект веб-сайта по продаже пицц, созданный на React JS с использованием Redux Toolkit и корзиной покупателя, позволяет оформлять заказы онлайн."
-const projectDescription3 = "\"TodoList\" - это учебный проект веб-приложения, созданного для управления ежедневными задачами, который позволяет пользователям создавать, редактировать и удалять задачи в режиме реального времени."
+const projectDescription2 = "Сайт для владельца бизнеса - пилорама со своим собственным производством деревянных конструкций"
+const projectDescription3 = "Это проект веб-сайта по продаже пицц, созданный на React JS с использованием Redux Toolkit и корзиной покупателя, позволяет оформлять заказы онлайн."
+const projectDescription4 = "\"TodoList\" - это учебный проект веб-приложения, созданного для управления ежедневными задачами, который позволяет пользователям создавать, редактировать и удалять задачи в режиме реального времени."
 
-const projectDescription4 = "Dashbord in developing... await soon "
+
+
+// const projectDescription5 = "Dashbord in developing... await soon "
 const container = {
   hidden: {},
   visible: {
@@ -47,7 +50,7 @@ const Project = ({ title }) => {
               <a className="text-cyan-500 underline" 
               rel="noreferrer noopener"
               target="_blank"
-              href="https://pizza-level-up-git-mybranch-fellerrr.vercel.app/">Посмотреть</a>
+              href="https://samwill.vercel.app/">Посмотреть</a>
             </p>
           </div>}
           {(title === "Project 3") && 
@@ -57,10 +60,20 @@ const Project = ({ title }) => {
               <a className="text-cyan-500 underline"
               rel="noreferrer noopener"
               target="_blank"
-              href="https://simple-todo-27d6te81o-fellerrr.vercel.app/">Посмотреть</a>
+              href="https://pizza-level-up-git-mybranch-fellerrr.vercel.app/">Посмотреть</a>
             </p>
           </div>}
-          {(title === "Project 4") && projectDescription4}
+          {(title === "Project 4") &&
+              <div>
+                <p className="mt-7">
+                  {projectDescription3}<br/>
+                  <a className="text-cyan-500 underline"
+                     rel="noreferrer noopener"
+                     target="_blank"
+                     href="https://simple-todo-27d6te81o-fellerrr.vercel.app/">Посмотреть</a>
+                </p>
+              </div>
+          }
          
             
         
