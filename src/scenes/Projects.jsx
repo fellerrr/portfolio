@@ -50,7 +50,7 @@ const Project = ({ title }) => {
               <a className="text-cyan-500 underline" 
               rel="noreferrer noopener"
               target="_blank"
-              href="https://samwill.vercel.app/">Посмотреть</a>
+              href="https://доска47.рф/">Посмотреть</a>
             </p>
           </div>}
           {(title === "Project 3") && 
