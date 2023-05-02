@@ -4,11 +4,9 @@ import { motion } from "framer-motion";
 const projectDescription1 = "\"Grille\" - это проект веб-сайта ресторана , который предоставляет клиентам возможность ознакомиться с меню и забронировать столик онлайн."
 const projectDescription2 = "Сайт для владельца бизнеса - пилорама со своим собственным производством деревянных конструкций"
 const projectDescription3 = "Это проект веб-сайта по продаже пицц, созданный на React JS с использованием Redux Toolkit и корзиной покупателя, позволяет оформлять заказы онлайн."
-const projectDescription4 = "\"TodoList\" - это учебный проект веб-приложения, созданного для управления ежедневными задачами, который позволяет пользователям создавать, редактировать и удалять задачи в режиме реального времени."
+const projectDescription4 = "\"SakuraGram\" - Регистрируйся и загружай свои любимые картинки, а также просматривай - что загрузили другие пользователи." +
+  "Стек: Next, TypeScript, Supabase(backend)"
 
-
-
-// const projectDescription5 = "Dashbord in developing... await soon "
 const container = {
   hidden: {},
   visible: {
@@ -66,11 +64,11 @@ const Project = ({ title }) => {
           {(title === "Project 4") &&
               <div>
                 <p className="mt-7">
-                  {projectDescription3}<br/>
+                  {projectDescription4}<br/>
                   <a className="text-cyan-500 underline"
                      rel="noreferrer noopener"
                      target="_blank"
-                     href="https://simple-todo-27d6te81o-fellerrr.vercel.app/">Посмотреть</a>
+                     href="https://next-gram-reborn-cyfzqfjg0-fellerrr.vercel.app/">Посмотреть</a>
                 </p>
               </div>
           }
@@ -107,7 +105,7 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-        Я занимаюсь разработкой веб-приложений на React JS.
+        Я занимаюсь разработкой веб-приложений на разныч стеках (React, Next, Vue).
         Аналитическое мышление, быстрое решение проблем и организационные способности.
         Все это помогает мне в разработке функциональных и эффективных веб-приложений.
         </p>
